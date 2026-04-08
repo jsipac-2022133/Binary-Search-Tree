@@ -8,7 +8,7 @@ public class Main {
         
         System.out.println(" Cargando diccionario");
         Dictionary dictionary = new Dictionary();
-        dictionary.loadDictionary("data/diccionario.txt");
+        dictionary.loadDictionary("../data/diccionario.txt");
         System.out.println();
         
         System.out.println("Recorrido in-order ");
@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println("Traducción de texto.txt ");
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("data/texto.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("../data/texto.txt"));
             String line;
 
             while ((line = reader.readLine()) != null) {
