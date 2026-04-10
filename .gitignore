@@ -1,3 +1,5 @@
 # Archivos compilados de Java
 *.class
 
+# Archivos para los tests
+lib/*.jar
